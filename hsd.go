@@ -1,5 +1,7 @@
+// hsdは文字列の距離を計算する関数を提供します
 package hsd
 
+// 文字列lとrの距離を返却する
 func StringDistance(l, r string) int {
 	return Distance([]rune(l), []rune(r))
 }
